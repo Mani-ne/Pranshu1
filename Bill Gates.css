@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.wrapper{
+    width: 90%;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    box-shadow: 0px 8px 11px -5px rgb(6, 1, 51)
+}
+.block1{
+    height:70vh;
+    color: #ffffff;
+    padding: 50px;
+    background-image: url(../Bill_Gates/img2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+}
+.block1 h1{
+    margin-top: 150px;
+    font-size: 2.5em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.block1 h2{
+    margin: 30px 0;
+    font-size: 1.3em;
+    color : white;
+    text-align: center;
+}
+.block2{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+}
+.block2-heading{
+    background: linear-gradient(to right, #ecea7c, #be9d56);
+    min-height: 75px;
+    height: auto;
+    font-size: 1.2em;
+    font-weight: bolder;
+    padding-top: 20px;
+    text-align: center;
+}  
+.block2-cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0;
+    text-align: center;
+}
+.block2-items{
+    width: 25%;
+    height: 100%;
+    padding: 20px 40px;
+    box-shadow: 5px 5px 8px -7px rgb(6, 1, 51);
+    text-align: center;
+}
+.block2-items h4{
+    padding: 10px 0;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    letter-spacing: 3px
+}
+.block2-items p{
+    padding-top: 10px;
+    font-size: 1em;
+    word-spacing: 2px;
+    color: black;
+    text-align: center;
+}
+.block3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    text-align: center;
+    margin: 20px;
+}
+.block3-heading{
+    background: linear-gradient(to right, #ecea7c, #be9d56);
+    min-height: 75px;
+    height: auto;
+    font-size: 1.2em;
+    font-weight: bolder;
+    padding-top: 20px;
+    text-align: center;
+}
+.block3-content{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    text-align: center;
+    color: black;
+}
+.block3-image img{
+    margin: 15px 0;
+    width: 380px;
+    height: 370px;
+    text-align: center;
+    box-shadow: 0px 8px 11px -5px rgb(6, 1, 51);
+    border-radius: 50%;
+}
+.block3-text{
+    margin-top: 60px;
+    width: 50%;
+    height: 90%;
+    font-size: 1.1em;
+    line-height: 45px;
+    text-align: center;
+    text-align: left;
+    color: black;
+}   
